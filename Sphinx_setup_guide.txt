@@ -1,0 +1,17 @@
+1. go to https://www.python.org/
+   - download python-2.7
+2. environment set for
+	- C:\Python27
+	- C:\Python27\Scripts
+3. go to https://bootstrap.pypa.io/get-pip.py
+	- save in anywhere 
+4. run this the folder where u save above file
+	- python get-pip.py
+5. Now Go to your doc directory where u want to install Sphinx and run below commands
+	- pip install sphinx
+	- sphinx-quickstart
+# here y can see some permission Y/N, you may choose any or Enter for default 
+# (Be sure to say yes to the “autodoc” extension) and for separate folder option
+
+6. Next command
+	- make html
